@@ -2,6 +2,11 @@
 
 //  Recorre y muestra el map en la Terminal
 @each $key, $val in c.$colors {
-    @debug "recorriendo...";
+    .text-#{$key} {
+        color: $val;
+    }
 
+    .bg-#{$key} {
+        background-color: $val;
+    }
 }
