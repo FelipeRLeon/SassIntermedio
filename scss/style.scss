@@ -1,0 +1,19 @@
+@use "reset";
+@use "fonts";
+@use "variables" as v;
+@use "colors";
+@use "components";
+@use "palette";
+
+body {
+    background-color: v.$color-fondo;
+}
+
+h1 {
+    color: v.$color-fuente;
+    font-family: v.$fuente-principal;
+}
+
+p {
+    color: v.$color-fuente;
+}

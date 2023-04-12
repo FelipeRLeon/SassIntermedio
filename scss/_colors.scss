@@ -1,0 +1,29 @@
+//Map: Lista de objetos con key: value
+$colors: (
+    "primary": #5263fa,
+    "secondary": #fa52f7,
+    "error": #fa5252,
+    "info": #52bffa,
+    "success": #98fa52,
+    "warning": #faa952,
+    "white": #fff,
+    "black": #000
+);
+
+//Mostrar map
+//  @debug $colors;
+
+ //Obtener valor dado el nombre del atributo
+//  @debug map-get($colors, "secondary");
+
+ //Verifica si un map contiene un valor
+//  @debug map-has-key($colors, "error");
+//  @debug map-has-key($colors, "errorx");
+
+ //Elimina clave del map
+//  @debug map-remove($colors, "info");
+
+ //Agrega una clave del map
+// @debug map-merge($colors, ("info": #52bffa ))
+
+ 

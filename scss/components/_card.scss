@@ -1,0 +1,28 @@
+@use "../variables" as v;
+
+.card {
+    background-color: #fff;
+    display: block;
+    padding: 20px;
+    box-shadow: 3px 3px 5px #0c0c0c77;
+    font-family: v.$fuente-principal;
+    margin: 20px;
+    border-radius: v.$border-radius-sm;
+
+    .card-title {
+        border-bottom: 1px solid #6a6a6a;
+        margin-bottom: 10px;
+        font-size: v.$font-size-lg;
+    }
+
+    .card-body {
+        color: v.$color-fuente;
+        font-size: v.$font-size-base;
+
+        a {
+            color: v.$color-link;
+            text-decoration: none;
+            font-size: v.$font-size-xsm;
+        }
+    }
+}
