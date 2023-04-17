@@ -5,6 +5,23 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #3ea4fd;
+}
+
+h1 {
+  color: #3e3e3e;
+  font-family: "Anonymous Pro", monospace;
+}
+
+p {
+  color: #3e3e3e;
+}
+
+.text {
+  font-family: "Anonymous Pro", monospace;
+}
+
 .card {
   background-color: #fff;
   display: block;
@@ -1121,23 +1138,6 @@
 
 .d-ninguna {
   color: green;
-}
-
-body {
-  background-color: #3ea4fd;
-}
-
-h1 {
-  color: #3e3e3e;
-  font-family: "Anonymous Pro", monospace;
-}
-
-p {
-  color: #3e3e3e;
-}
-
-.text {
-  font-family: "Anonymous Pro", monospace;
 }
 
 /*# sourceMappingURL=style.css.map */
