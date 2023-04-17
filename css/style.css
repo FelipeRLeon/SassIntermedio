@@ -5,6 +5,12 @@
   box-sizing: border-box;
 }
 
+.div-alto {
+  width: 200px;
+  height: 300px;
+  background-color: blue;
+}
+
 body {
   background-color: #3ea4fd;
 }
@@ -79,14 +85,87 @@ p {
   cursor: pointer;
 }
 .review__more {
-  background-color: #5263fa;
+  background: rgb(156, 128, 207);
+  background: linear-gradient(90deg, rgb(156, 128, 207) 0%, rgb(4, 101, 107) 50%);
   color: #fff;
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 10px;
 }
 .review__more:hover {
-  background-color: #313b96;
+  background: rgb(4, 101, 107);
+  background: linear-gradient(90deg, rgb(4, 101, 107) 0%, rgb(156, 128, 207) 50%);
+}
+
+.alert-success {
+  background-color: #ffe0e5;
+  padding: 10px;
+  border: 1px solid pink;
+  border-radius: 20px;
+  margin: 10px;
+  color: #806066;
+}
+.alert-success h3 {
+  color: #c00022;
+  border-bottom: 1px solid pink;
+  margin-bottom: 5px;
+}
+.alert-success p {
+  color: #ffc6d0;
+}
+
+.alert-warning {
+  color: blue;
+  background-color: #80ffff;
+  padding: 10px;
+  border: 1px solid cyan;
+  border-radius: 5px;
+  margin: 10px;
+  color: teal;
+}
+.alert-warning h3 {
+  color: black;
+  border-bottom: 1px solid cyan;
+  margin-bottom: 5px;
+}
+.alert-warning p {
+  color: #1affff;
+}
+
+.alert-error {
+  color: blue;
+  background-color: #c58080;
+  padding: 10px;
+  border: 1px solid darkred;
+  border-radius: 5px;
+  margin: 10px;
+  color: #460000;
+}
+.alert-error h3 {
+  color: black;
+  border-bottom: 1px solid darkred;
+  margin-bottom: 5px;
+}
+.alert-error p {
+  color: #971a1a;
+}
+
+.alert-info {
+  color: blue;
+  background-color: #ffff80;
+  padding: 10px;
+  border: 1px solid yellow;
+  border-radius: 5px;
+  margin: 10px;
+  color: olive;
+}
+.alert-info h3 {
+  color: black;
+  border-bottom: 1px solid yellow;
+  margin-bottom: 5px;
+}
+.alert-info p {
+  color: #ffff1a;
 }
 
 .text-primary {

@@ -31,14 +31,16 @@
 
     &__more {
         $color-fondo: map-get(c.$colors , "primary");
-        background-color: $color-fondo;
+        background: rgb(156,128,207);
+        background: linear-gradient(90deg, rgba(156,128,207,1) 0%, rgba(4,101,107,1) 50%);
         color: map-get(c.$colors, "white");
         text-decoration: none;
         padding: 5px 10px;
         border-radius: 10px;
 
         &:hover {
-            background-color: mix(black, $color-fondo, 40%);
+            background: rgba(4,101,107,1);
+            background: linear-gradient(90deg, rgba(4,101,107,1) 0%, rgba(156,128,207,1) 50%);
 
         }
     }
