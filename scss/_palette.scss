@@ -9,12 +9,30 @@
     .bg-#{$key} {
         background-color: $val;
     }
-    //Generacion de variaciones
+    //Generacion de variaciones claras
     @for $i from 1 through 9 {
         //@debug $key, $val, $i;
         .text-#{$key}-light-#{$i} {
             // color1, color2, porcentaje de mezcla
             color: mix(white, $val, 10% *$i);
         }
+        .bg-#{$key}-light-#{$i} {
+            // color1, color2, porcentaje de mezcla
+            background-color: mix(white, $val, 10% *$i);
+        }
     }
+    //Generacion de oscuras 
+    @for $i from 1 through 9 {
+        //@debug $key, $val, $i;
+        .text-#{$key}-dark-#{$i} {
+            // color1, color2, porcentaje de mezcla
+            color: mix(black, $val, 10% *$i);
+        }
+        .bg-#{$key}-dark-#{$i} {
+            // color1, color2, porcentaje de mezcla
+            background-color: mix(black, $val, 10% *$i);
+        }
+    }
+
+    
 }
