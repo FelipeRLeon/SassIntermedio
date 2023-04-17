@@ -9,7 +9,10 @@
     .bg-#{$key} {
         background-color: $val;
     }
-    //Generacion de variaciones claras
+    //Genera variaciones de tonalidades si son colores diferente a blanco y negro
+
+    @if ($val != white and $val != black) {
+        //Generacion de variaciones claras
     @for $i from 1 through 9 {
         //@debug $key, $val, $i;
         .text-#{$key}-light-#{$i} {
@@ -32,7 +35,9 @@
             // color1, color2, porcentaje de mezcla
             background-color: mix(black, $val, 10% *$i);
         }
-    }   
+    }  
+
+    } 
 }
 
 //Condicional If
