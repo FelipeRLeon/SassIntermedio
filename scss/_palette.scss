@@ -9,4 +9,12 @@
     .bg-#{$key} {
         background-color: $val;
     }
+    //Generacion de variaciones
+    @for $i from 1 through 9 {
+        //@debug $key, $val, $i;
+        .text-#{$key}-light-#{$i} {
+            // color1, color2, porcentaje de mezcla
+            color: mix(white, $val, 10% *$i);
+        }
+    }
 }
