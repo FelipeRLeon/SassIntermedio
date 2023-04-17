@@ -1251,6 +1251,14 @@
   background-color: black;
 }
 
+.diferente-10-20 {
+  color: red;
+}
+
+.d-ninguna {
+  color: green;
+}
+
 body {
   background-color: #3ea4fd;
 }
