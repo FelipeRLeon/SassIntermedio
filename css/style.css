@@ -52,6 +52,43 @@ p {
   color: #fff;
 }
 
+.review {
+  display: grid;
+  grid-template: 1fr auto/1fr;
+  border: 2px solid magenta;
+}
+.review__header {
+  background-color: #5263fa;
+}
+.review__header-title {
+  color: #fff;
+  padding: 1rem;
+}
+.review__body {
+  background-color: #fff;
+  padding: 1rem;
+}
+.review__body p {
+  color: #000;
+}
+.review__user {
+  color: red;
+  background-color: #52bffa;
+  padding: 0.5rem;
+  margin-top: 0.6rem;
+  cursor: pointer;
+}
+.review__more {
+  background-color: #5263fa;
+  color: #fff;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+.review__more:hover {
+  background-color: #313b96;
+}
+
 .text-primary {
   color: #5263fa;
 }
